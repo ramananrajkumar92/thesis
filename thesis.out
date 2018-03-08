@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Definitions}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Kurepa's Conjecture}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Landau Notation}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Time and Space Complexity of arithmetic operations over the integers}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{previous results and methods}{}% 6
+\BOOKMARK [1][-]{section.3}{Background of accumulating remainder tree and other applications}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Solving a certain class of recurrences}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Naive algorithm and its complexity}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Definition of the accumulating remainder tree technique}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{Complexity Analysis of the accumulating remainder tree algorithm}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.5}{Background of accumulating remainder tree}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.6}{Other applications}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Theorems on bounds of time and space usage}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{bounds of time with no space usage}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{bounds of time with space constraints}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{why the bounds are useful}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Give results}{}% 18
+\BOOKMARK [1][-]{section.6}{Upscaling}{}% 19

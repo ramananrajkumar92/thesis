@@ -1,0 +1,92 @@
+
+
+\documentclass{beamer}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usetheme{Frankfurt} 
+ 
+%Information to be included in the title page:
+\title{Applying the accumulating remainder tree algorithm to Kurepa's Conjecture}
+\author{Ramanan Rajkumar}
+\institute{UNSW Sydney}
+\date
+ 
+ 
+ 
+\begin{document}
+ 
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{The left factorial function}
+
+\begin{block}{Definition}
+For positive integers $n$, Kurepa defined $!n$ as $0!+1!+\cdots +(n-1)!$ where $0!=1$. 
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Kurepa's Left Factorial Conjecture}
+
+\begin{block}{Kurepa's Left factorial Conjecture}
+Kurepa's conjecture is that $(!n, n!)=2$ for all $n$ greater than $1$.
+\end{block}
+
+\begin{block}{Remark}
+
+It can be shown that Kurepa's conjecture is equivalent to the statement that
+$!p\not \equiv 0 \bmod p$. This form of the conjecture is the most useful for testing computationally.
+
+\end{block}
+
+\end{frame}
+ 
+\begin{frame}
+\frametitle{Attempted Proofs}
+
+\begin{block}{Attempted Proofs}
+Kurepa claimed that he had a proof in 1992 and R. Bond anoounced a proof too, but neither of these
+proofs were ever published. Barsky and Benzaghou published a proof in 2004 which was later retracted
+due to irreparable calcuation errors. 
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Previous Results}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Upper Bound & Year & Author \\
+\hline
+$p<3\cdot 10^{5}$ & $1990$ & Mijajlovic \\
+$p <10^6$ & $1991$ & Gogic \\
+$p<3\cdot 10^6$ & $1998$  & Malesevic \\
+$p <2^{23}$ & $1999$ & Zivkovic \\
+$p<1^{26}$ & $2000$ & Gallot \\
+$p<1.44\cdot 10^{8}$ & $2004$ & Jobling \\
+$p<2^{34}$ & $2016$ & Andrejic \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{block}{Time Complexity}
+These algorithms work in $O(p)$ time for each prime $p$. Combining this with the Prime Number Theorem,
+the time taken for all primes up to $N$ is $O(N^2/\log(N)) $.   
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\begin{block}
+
+\end{document}
+

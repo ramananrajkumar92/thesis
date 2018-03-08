@@ -1,0 +1,50 @@
+\section{Definitions} 
+
+In this section we define Kurepa's conjecture and Landau Notation.
+
+\subsection{Kurepa's Conjecture}
+
+{\DJ}uro Kurepa defined the left factorial of $n$ as $\sum_{k=0}^{n-1} k! $ for 
+all positive integers $n$ and $!0:=1$ in \cite{Kur71}. For example $!7=6!+5!+4!+3!+2!+1!+0!=874$.
+
+We denote the greatest common divisor of $!n$ and $n!$ as $M_n$; that is, $$M_n=(!n, n!).$$ We 
+define $r_n$ as the smallest non-negative integer such that $r_n \equiv !n \bmod n$. 
+Thus if we write $M_n=nq+r$ using the division algorithm, then $r=r_n$. 
+Furthermore, Kurepa hypothesized that $M_n=2$ for all $n>1$ and showed that this was in fact 
+equivalent to the statement that $r_n\not\equiv 0\bmod n$ for all $n>2$; specifically 
+$r_p\not\equiv 0\bmod p$ for all odd primes $p$. 
+
+For example let us consider the case where $n=7$. Then $M_7=(!7,7!)=(874, 5040)=2$ which
+satifies the hypothesis. Also $M_7=874=7\times 124+6$ so $r_7=6$. Thus $r_7\not\equiv 0 \bmod 7$.
+
+\subsection{Landau Notation}
+
+In this subsection we remind the reader of Landau \todo[inline]{landau-bachmann?} notation.
+ 
+
+Let $f$ be a function that maps some subset of $\mathbb{R}$ to $\mathbb{R}$. We say that 
+$f(x)=\O(g(x))$ if there exists a positive real number $C$ and a real number $x_0$ such that
+$\vert f(x) \vert \leq C\vert g(x)\vert$ for all $x\geq x_0$. Intuitively, big $\O$  notation
+provides a way of describing an upper bound to the asymptotic behaviour of a given function.
+
+For example, define $f(x):=x^3+x^2\sin(x)+x\log(x)$. Then 
+\begin{align*} \vert f(x)\vert &=\vert x^3+x^2\sin(x)+x\log(x) \vert \\
+&\leq \vert x^3\vert +\vert x^2\vert\vert\sin(x)\vert+\vert x\vert \vert\log(x)\vert \  (\textrm{By the Triangle Inequality})\\
+&\leq \vert x^3\vert +\vert x^3\vert +\vert x\vert\vert\log(x)\vert \ (\sin(x) \leq x \ \textrm{whenever} \ x>0)\\
+&\leq 2\vert x^3\vert+\vert x^2\vert \ (\log(x) \leq x \ \textrm{whenever} \ x\geq1) \\
+&\leq 3 \vert x^3 \vert \  (x^2\leq x^3 \ \textrm{whenever} \ x\geq1)
+\end{align*}
+so by defining $C$ as 3 and $x_0$ as $1$, it follows that $f(x)=\O(x^3)$.
+\todo[inline, color=blue!40]{Do I need to discuss = in big O isnt a symmetric operator and should be thought of as $\in$}
+\todo[inline]{introduce little o or epsilon notation}
+
+Now we introduce little $o$ notation. We say that $f(x)=o(g(x))$ if $$\lim_{x\to\infty} f(x)/g(x)=0.$$ An alternative characterisation of little $o$ notation is that for all $C>0$ there exists a real number $x_0$ such that $\vert f(x)\vert<C\vert g(x)\vert$ for all $x\geq x_0$. This is similar to the definition of big $\O$ notation except that it is for all positive constants $C$ not a particular value of $C$. We denote $f(x)$ as $\O(x^\epsilon)$ if there exists a non negative function $g(x)$ such that $g(x)=o(1)$ and $\vert f(x)\vert\leq C\vert x^{g(x)}\vert$ for all $x\geq x_0$ and a positive constant $C$. 
+
+\subsection{Time and Space Complexity of arithmetic operations over the integers}
+\todo[inline]{find harveys paper where he has results and use them here}
+
+Throughout this section, assume that $m$ and $n$ are both $B$-bit integers. Then the space complexity of adding $m$ and $n$ is $\O(B)$ \todo[inline]{what is this?} and time complexity of adding $m$ and $n$ is $\O(B).$ \todo[inline]{is subtraction the same? should be}
+
+Furthermore, the space complexity  of multiplying $m$ and $n$ is $\O(B)$ and the time complexity is $\O(B\log(B)\log\log(B))$. Similarly, the space complexity  of diving with remainder $m$ and $n$ is $\O(B)$ and the time complexity is $\O(B\log(B)\log\log(B))=\O(B\log^{1+\epsilon}(B)$. We note that although multiplication and division with remainder have the same asymptotic growth, the constant in the division algorithm is larger.\todo[inline]{needs a reference} For further details, we refer the reader to \cite[Ch.8,9]{vzGG99}.
+
+\subsection{}

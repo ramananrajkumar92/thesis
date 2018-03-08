@@ -1,0 +1,54 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{vZGG99}
+
+\bibitem[CGH14]{CGH14}
+Edgar Costa, Robert Gerbicz, and David Harvey, \emph{A search for wilson
+  primes}, Mathematics of Computation \textbf{83} (2014), 3071--3091.
+
+\bibitem[Har14]{Har14}
+David Harvey, \emph{Counting points on hyperelliptic curves in average
+  polynomial time}, Annals of Mathematics \textbf{179} (2014), 783--803.
+
+\bibitem[Har15]{Har15}
+\bysame, \emph{Computing zeta functions of arithmetic schemes}, Proceedings of
+  the London Mathematical Society \textbf{111} (2015), no.~6, 1379--1401.
+
+\bibitem[HMS16]{HMS16}
+David Harvey, Maike Massierer, and Andrew~V. Sutherland, \emph{Ants xii},
+  Computing $L$-series of geometrically hyperelliptic curves of genus three,
+  2016.
+
+\bibitem[HS14]{HS14}
+David Harvey and Andrew~V. Sutherland, \emph{Ants xi}, Computing Hasse–Witt
+  matrices of hyperelliptic curves in average polynomial time, 2014.
+
+\bibitem[HS16]{HS16}
+\bysame, \emph{Frobenius distributions: Lang – trotter and sato – tate
+  conjectures}, Computing Hasse–Witt matrices of hyperelliptic curves in
+  average polynomial time, II, 2016.
+
+\bibitem[Kur71]{Kur71}
+{\DJ}uro Kurepa, \emph{On the left factorial !n}, Mathematica Balkanica
+  \textbf{1} (1971), 147--153.
+
+\bibitem[MB72]{MB72}
+R.~Moenck and A.~Borodin, \emph{Fast modular transforms via division},
+  Proceedings of the 13th Annual Symposium on Switching and Automata Theory
+  (Swat 1972) (Washington, DC, USA), SWAT '72, IEEE Computer Society, 1972,
+  pp.~90--96.
+
+\bibitem[vZGG99]{vzGG99}
+Joachim von Zur~Gathen and Jurgen Gerhard, \emph{Modern computer algebra}, 1
+  ed., Cambridge University Press, 1999.
+
+\bibitem[Wol62]{Wol62}
+Joseph Wolstenholme, \emph{On certain properties of prime numbers}, The
+  Quarterly journal of pure and applied mathematics (1862), 35--39.
+
+\end{thebibliography}

@@ -1,0 +1,26 @@
+
+
+\documentclass{beamer}
+ 
+\usepackage[utf8]{inputenc}
+ 
+ 
+%Information to be included in the title page:
+\title{Applying the accumulating remainder tree algorithm to Kurepa's Conjecture}
+\author{Ramanan Rajkumar}
+\institute{UNSW Sydney}
+\date
+ 
+ 
+ 
+\begin{document}
+ 
+\frame{\titlepage}
+ 
+\begin{frame}
+\frametitle{Sample frame title}
+This is a text in first frame. This is a text in first frame. This is a text in first frame.
+\end{frame}
+ 
+\end{document}
+
